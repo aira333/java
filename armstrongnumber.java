@@ -1,10 +1,10 @@
 public class armstrongnumber {
     public static boolean isArmstrong(int number){
         if (number < 0) {
-            return false;
+            return false; // does not work for negative numbers
         }
         if (number == 0){
-            return false;
+            return true; // because 0^1 = 0 which is an armstrong number
         }
 
         int originalnum = number;
