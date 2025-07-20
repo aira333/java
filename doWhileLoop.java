@@ -12,4 +12,5 @@ public class doWhileLoop {
         doWhileLoop print = new doWhileLoop();
         print.printNums();
     }
+    
 }
